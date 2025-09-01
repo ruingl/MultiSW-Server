@@ -5,7 +5,7 @@
   "description": "integrated server for multisw",
   "module": "dist/index.js",
   "scripts": {
-    "docs": "typedoc src",
+    "docs": "typedoc src/core/index.ts",
     "build": "tsc",
     "start": "node dist/index.js"
   },
