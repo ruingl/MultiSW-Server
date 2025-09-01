@@ -1,0 +1,23 @@
+{
+  "name": "multisw-server",
+  "private": true,
+  "version": "0.0.1-indev",
+  "description": "integrated server for multisw",
+  "module": "dist/index.js",
+  "scripts": {
+    "docs": "typedoc src",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "LainZ",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "typedoc": "^0.28.12",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "chalk": "^5.6.0"
+  }
+}
